@@ -1,0 +1,37 @@
+.badgesList__container {
+    background-color: rgb(214, 240, 215);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0px 0px 9px 2px rgb(0 0 0 / 20%);
+}
+
+
+
+.badgesList__avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.badgesList_details{
+    margin: 10px;
+}
+
+.badgesList__social{
+    color: rgb(50, 147, 192);
+
+}
+
+h3  {
+    margin-bottom: 0;
+}
+h5  {
+    line-height: 25px;
+}
+p {
+    margin-bottom: 0;
+}
+

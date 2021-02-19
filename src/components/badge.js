@@ -12,7 +12,7 @@ class Badge extends React.Component {  // creamos el componente Badge que se ext
             </div>
             <div className="badge_section-name">
                 <img className="badge_avatar" src={this.props.avatar} alt="Avatar"/>
-                <h1> {this.props.firstName} <br/> {this.props.lastName}</h1>
+                <h1> {this.props.firstName} <br/> {this.props.lastName} </h1>
             </div>
             <div className="badge_section-info">
                 <h3> {this.props.jobTitle}</h3>
