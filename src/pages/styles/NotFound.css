@@ -1,0 +1,14 @@
+.errorContainer {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ErrorIMG{
+    width: 50vw;
+    
+    
+}

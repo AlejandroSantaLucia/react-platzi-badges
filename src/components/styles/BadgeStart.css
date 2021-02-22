@@ -1,0 +1,23 @@
+.BadgeStart__Container{
+/* border: red 1px solid; */
+color: white;
+/* display: flex; */
+}
+
+.BadgesStart__new{
+
+}
+
+.BadgeStart__detail-ontainer{
+    margin: 20px 0;
+}
+
+h2 {
+   text-transform: uppercase;
+
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
