@@ -3,6 +3,7 @@ import React from 'react';
 import './styles/badge.css'
 import confLogo from '../images/platziconf-logo.svg';
 // import avatar from '../images/avatar.jpeg';
+import Gravatar from './Gravatar'
 
 class Badge extends React.Component {  // creamos el componente Badge que se extiende como un React.component
     render(){ // siempre usamos render para poder aplicar los componentes en pantalla
@@ -11,7 +12,8 @@ class Badge extends React.Component {  // creamos el componente Badge que se ext
                 <img src={confLogo} alt="Logo de la conferencia"/>
             </div>
             <div className="badge_section-name">
-                <img className="badge_avatar" src={this.props.avatar} alt="Avatar"/>
+                {/* <img className="badge_avatar" src={this.props.avatar} alt="Avatar"/> */}
+                <Gravatar className="badge_avatar" email={this.props.email} alt="Avatar"/>
                 <h1> {this.props.firstName} <br/> {this.props.lastName} </h1>
             </div>
             <div className="badge_section-info">
